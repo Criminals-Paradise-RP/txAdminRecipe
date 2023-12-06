@@ -87,7 +87,7 @@ tasks:
 
   - action: download_github
     dest: ./resources/[extra]/cdn-fuel
-    ref: master
+    ref: main
     src: https://github.com/Criminals-Paradise-RP/cdn-fuel
 
   - action: waste_time # prevent github throttling
