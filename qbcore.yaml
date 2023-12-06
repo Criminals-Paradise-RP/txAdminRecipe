@@ -440,6 +440,11 @@ tasks:
     src: https://github.com/Criminals-Paradise-RP/ps-ui
 
   - action: download_github
+    dest: ./resources/[ps]/ps-adminmenu
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/ps-adminmenu
+
+  - action: download_github
     dest: ./resources/[extra]/cqc-mugshot
     ref: main
     src: https://github.com/Criminals-Paradise-RP/cqc-mugshot
