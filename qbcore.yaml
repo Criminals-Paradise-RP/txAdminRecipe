@@ -441,7 +441,7 @@ tasks:
 
   - action: download_github
     dest: ./resources/[extra]/cqc-mugshot
-    ref: main
+    ref: dev
     src: https://github.com/Criminals-Paradise-RP/cqc-mugshot
 
   - action: download_github
