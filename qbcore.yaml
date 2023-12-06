@@ -506,7 +506,7 @@ tasks:
 
   - action: download_github
     dest: ./resources/[extra]/fivem-freecam
-    ref: main
+    ref: master
     src: https://github.com/Deltanic/fivem-freecam
 
   - action: download_github
