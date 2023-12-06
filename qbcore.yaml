@@ -508,6 +508,11 @@ tasks:
     dest: ./resources/[extra]/fivem-freecam
     ref: main
     src: https://github.com/Deltanic/fivem-freecam
+
+  - action: download_github
+    dest: ./resources/[extra]/919-speedlimits
+    ref: main
+    src: https://github.com/youngsinatra99/919-speedlimits
     
   # Clean up
   - action: remove_path
