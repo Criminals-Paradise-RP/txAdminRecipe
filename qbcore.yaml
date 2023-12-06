@@ -130,11 +130,6 @@ tasks:
     src: https://github.com/Criminals-Paradise-RP/qb-core
 
   - action: download_github
-    dest: ./resources/[qb]/qb-adminmenu
-    ref: main
-    src: https://github.com/qbcore-framework/qb-adminmenu
-
-  - action: download_github
     dest: ./resources/[qb]/qb-multicharacter
     ref: main
     src: https://github.com/Criminals-Paradise-RP/qb-multicharacter
