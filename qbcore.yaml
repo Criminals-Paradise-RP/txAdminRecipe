@@ -213,7 +213,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-policejob
     ref: main
-    src: https://github.com/qbcore-framework/qb-policejob
+    src: https://github.com/Criminals-Paradise-RP/qb-policejob
 
   - action: download_github
     dest: ./resources/[qb]/qb-traphouse
