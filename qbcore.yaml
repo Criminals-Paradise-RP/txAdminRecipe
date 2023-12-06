@@ -503,6 +503,11 @@ tasks:
     dest: ./resources/[qb]/mz-skills
     ref: main
     src: https://github.com/Criminals-Paradise-RP/mz-skills
+
+  - action: download_github
+    dest: ./resources/[extra]/fivem-freecam
+    ref: main
+    src: https://github.com/Deltanic/fivem-freecam
     
   # Clean up
   - action: remove_path
