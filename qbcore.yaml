@@ -1,9 +1,9 @@
 $engine: 3
 $onesync: on
-name: QBCore Framework
+name: Criminals Paradise Roleplay
 version: 2.2.4
-author: JericoFx & Kakarot & Hamy
-description: An advanced FiveM RP framework including jobs, gangs, housing & more!
+author: joski98
+description: An advanced FiveM RP server.
 
 tasks:
   #  Download Base Files
