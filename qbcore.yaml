@@ -85,11 +85,6 @@ tasks:
     ref: master
     src: https://github.com/qbcore-framework/PolyZone
 
-  - action: download_github
-    dest: ./resources/[extra]/cdn-fuel
-    ref: main
-    src: https://github.com/Criminals-Paradise-RP/cdn-fuel
-
   - action: waste_time # prevent github throttling
     seconds: 10
 
