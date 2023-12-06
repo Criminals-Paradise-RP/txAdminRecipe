@@ -63,7 +63,7 @@ tasks:
   - action: download_github
     dest: ./resources/[standalone]/progressbar
     ref: main
-    src: https://github.com/qbcore-framework/progressbar
+    src: https://github.com/Criminals-Paradise-RP/progressbar
 
   - action: download_github
     dest: ./resources/[standalone]/interact-sound
@@ -86,9 +86,9 @@ tasks:
     src: https://github.com/qbcore-framework/PolyZone
 
   - action: download_github
-    dest: ./resources/[standalone]/LegacyFuel
+    dest: ./resources/[extra]/cdn-fuel
     ref: master
-    src: https://github.com/qbcore-framework/LegacyFuel
+    src: https://github.com/Criminals-Paradise-RP/cdn-fuel
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -102,7 +102,7 @@ tasks:
   - action: download_github
     dest: ./resources/[voice]/qb-radio
     ref: main
-    src: https://github.com/qbcore-framework/qb-radio
+    src: https://github.com/Criminals-Paradise-RP/qb-radio
 
     # MAPS
   - action: download_github
@@ -127,12 +127,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-core
     ref: main
-    src: https://github.com/qbcore-framework/qb-core
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-scoreboard
-    ref: main
-    src: https://github.com/qbcore-framework/qb-scoreboard
+    src: https://github.com/Criminals-Paradise-RP/qb-core
 
   - action: download_github
     dest: ./resources/[qb]/qb-adminmenu
@@ -142,12 +137,12 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-multicharacter
     ref: main
-    src: https://github.com/qbcore-framework/qb-multicharacter
+    src: https://github.com/Criminals-Paradise-RP/qb-multicharacter
 
   - action: download_github
     dest: ./resources/[qb]/qb-target
     ref: main
-    src: https://github.com/qbcore-framework/qb-target
+    src: https://github.com/Criminals-Paradise-RP/qb-target
 
   - action: download_github
     dest: ./resources/[qb]/qb-vehiclesales
@@ -157,12 +152,12 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-vehicleshop
     ref: main
-    src: https://github.com/qbcore-framework/qb-vehicleshop
+    src: https://github.com/Criminals-Paradise-RP/qb-vehicleshop
 
   - action: download_github
     dest: ./resources/[qb]/qb-houserobbery
     ref: main
-    src: https://github.com/qbcore-framework/qb-houserobbery
+    src: https://github.com/Criminals-Paradise-RP/qb-houserobbery
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -170,7 +165,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-prison
     ref: main
-    src: https://github.com/qbcore-framework/qb-prison
+    src: https://github.com/Criminals-Paradise-RP/qb-prison
 
   - action: download_github
     dest: ./resources/[qb]/qb-hud
@@ -180,37 +175,27 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-management
     ref: main
-    src: https://github.com/qbcore-framework/qb-management
+    src: https://github.com/Criminals-Paradise-RP/qb-management
 
   - action: download_github
-    dest: ./resources/[qb]/qb-weed
+    dest: ./resources/[ps]/ps-inventory
     ref: main
-    src: https://github.com/qbcore-framework/qb-weed
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-lapraces
-    ref: main
-    src: https://github.com/qbcore-framework/qb-lapraces
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-inventory
-    ref: main
-    src: https://github.com/qbcore-framework/qb-inventory
+    src: https://github.com/Criminals-Paradise-RP/ps-inventory
 
   - action: download_github
     dest: ./resources/[qb]/qb-houses
     ref: main
-    src: https://github.com/qbcore-framework/qb-houses
+    src: https://github.com/Criminals-Paradise-RP/qb-houses
 
   - action: download_github
     dest: ./resources/[qb]/qb-garages
     ref: main
-    src: https://github.com/qbcore-framework/qb-garages
+    src: https://github.com/Criminals-Paradise-RP/qb-garages
 
   - action: download_github
     dest: ./resources/[qb]/qb-ambulancejob
     ref: main
-    src: https://github.com/qbcore-framework/qb-ambulancejob
+    src: https://github.com/Criminals-Paradise-RP/qb-ambulancejob
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -218,12 +203,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-radialmenu
     ref: main
-    src: https://github.com/qbcore-framework/qb-radialmenu
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-crypto
-    ref: main
-    src: https://github.com/qbcore-framework/qb-crypto
+    src: https://github.com/Criminals-Paradise-RP/qb-radialmenu
 
   - action: download_github
     dest: ./resources/[qb]/qb-weathersync
@@ -238,32 +218,22 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-traphouse
     ref: main
-    src: https://github.com/qbcore-framework/qb-traphouse
+    src: https://github.com/Criminals-Paradise-RP/qb-traphouse
 
   - action: download_github
     dest: ./resources/[qb]/qb-apartments
     ref: main
-    src: https://github.com/qbcore-framework/qb-apartments
+    src: https://github.com/Criminals-Paradise-RP/qb-apartments
 
   - action: download_github
     dest: ./resources/[qb]/qb-vehiclekeys
     ref: main
-    src: https://github.com/qbcore-framework/qb-vehiclekeys
+    src: https://github.com/Criminals-Paradise-RP/qb-vehiclekeys
 
   - action: download_github
     dest: ./resources/[qb]/qb-mechanicjob
     ref: main
     src: https://github.com/qbcore-framework/qb-mechanicjob
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-phone
-    ref: main
-    src: https://github.com/qbcore-framework/qb-phone
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-vineyard
-    ref: main
-    src: https://github.com/qbcore-framework/qb-vineyard
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -271,32 +241,17 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-weapons
     ref: main
-    src: https://github.com/qbcore-framework/qb-weapons
+    src: https://github.com/Criminals-Paradise-RP/qb-weapons
 
   - action: download_github
-    dest: ./resources/[qb]/qb-scrapyard
+    dest: ./resources/[extra]/mz-storerobbery
     ref: main
-    src: https://github.com/qbcore-framework/qb-scrapyard
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-towjob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-towjob
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-streetraces
-    ref: main
-    src: https://github.com/qbcore-framework/qb-streetraces
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-storerobbery
-    ref: main
-    src: https://github.com/qbcore-framework/qb-storerobbery
+    src: https://github.com/Criminals-Paradise-RP/mz-storerobbery
 
   - action: download_github
     dest: ./resources/[qb]/qb-spawn
     ref: main
-    src: https://github.com/qbcore-framework/qb-spawn
+    src: https://github.com/Criminals-Paradise-RP/qb-spawn
 
   - action: download_github
     dest: ./resources/[qb]/qb-skillbar
@@ -306,52 +261,37 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-smallresources
     ref: main
-    src: https://github.com/qbcore-framework/qb-smallresources
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-recyclejob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-recyclejob
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-diving
-    ref: main
-    src: https://github.com/qbcore-framework/qb-diving
+    src: https://github.com/Criminals-Paradise-RP/qb-smallresources
 
   - action: download_github
     dest: ./resources/[qb]/qb-cityhall
     ref: main
-    src: https://github.com/qbcore-framework/qb-cityhall
+    src: https://github.com/Criminals-Paradise-RP/qb-cityhall
 
   - action: download_github
     dest: ./resources/[qb]/qb-truckrobbery
     ref: main
-    src: https://github.com/qbcore-framework/qb-truckrobbery
+    src: https://github.com/Criminals-Paradise-RP/qb-truckrobbery
 
   - action: download_github
     dest: ./resources/[qb]/qb-pawnshop
     ref: main
-    src: https://github.com/qbcore-framework/qb-pawnshop
+    src: https://github.com/Criminals-Paradise-RP/qb-pawnshop
 
   - action: download_github
     dest: ./resources/[qb]/qb-taxijob
     ref: main
-    src: https://github.com/qbcore-framework/qb-taxijob
+    src: https://github.com/Criminals-Paradise-RP/qb-taxijob
 
   - action: download_github
     dest: ./resources/[qb]/qb-busjob
     ref: main
-    src: https://github.com/qbcore-framework/qb-busjob
+    src: https://github.com/Criminals-Paradise-RP/qb-busjob
 
   - action: download_github
-    dest: ./resources/[qb]/qb-newsjob
+    dest: ./resources/[extra]/don-jewellery
     ref: main
-    src: https://github.com/qbcore-framework/qb-newsjob
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-jewelery
-    ref: main
-    src: https://github.com/qbcore-framework/qb-jewelery
+    src: https://github.com/Criminals-Paradise-RP/don-jewellery
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -359,7 +299,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-bankrobbery
     ref: main
-    src: https://github.com/qbcore-framework/qb-bankrobbery
+    src: https://github.com/Criminals-Paradise-RP/qb-bankrobbery
 
   - action: download_github
     dest: ./resources/[qb]/qb-truckerjob
@@ -377,24 +317,19 @@ tasks:
     src: https://github.com/qbcore-framework/qb-fitbit
 
   - action: download_github
-    dest: ./resources/[qb]/qb-banking
+    dest: ./resources/[jim]/jim-payments
     ref: main
-    src: https://github.com/qbcore-framework/qb-banking
+    src: https://github.com/Criminals-Paradise-RP/jim-payments
 
   - action: download_github
-    dest: ./resources/[qb]/qb-clothing
+    dest: ./resources/[extra]/illenium-appearance
     ref: main
-    src: https://github.com/qbcore-framework/qb-clothing
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-hotdogjob
-    ref: main
-    src: https://github.com/qbcore-framework/qb-hotdogjob
+    src: https://github.com/Criminals-Paradise-RP/illenium-appearance
 
   - action: download_github
     dest: ./resources/[qb]/qb-doorlock
     ref: main
-    src: https://github.com/qbcore-framework/qb-doorlock
+    src: https://github.com/Criminals-Paradise-RP/qb-doorlock
 
   - action: download_github
     dest: ./resources/[qb]/qb-garbagejob
@@ -402,14 +337,29 @@ tasks:
     src: https://github.com/qbcore-framework/qb-garbagejob
 
   - action: download_github
-    dest: ./resources/[qb]/qb-drugs
+    dest: ./resources/[jim]/jim-shops
     ref: main
-    src: https://github.com/qbcore-framework/qb-drugs
+    src: https://github.com/Criminals-Paradise-RP/jim-shops
 
   - action: download_github
-    dest: ./resources/[qb]/qb-shops
+    dest: ./resources/[jim]/jim-jobgarage
     ref: main
-    src: https://github.com/qbcore-framework/qb-shops
+    src: https://github.com/Criminals-Paradise-RP/jim-jobgarage
+
+  - action: download_github
+    dest: ./resources/[jim]/jim-consumables
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/jim-consumables
+
+  - action: download_github
+    dest: ./resources/[jim]/jim-mining
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/jim-mining
+
+  - action: download_github
+    dest: ./resources/[jim]/jim-recycle
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/jim-recycle
 
   - action: download_github
     dest: ./resources/[qb]/qb-lockpick
@@ -435,10 +385,125 @@ tasks:
     src: https://github.com/qbcore-framework/qb-input
 
   - action: download_github
-    dest: ./resources/[qb]/qb-loading
+    dest: ./resources/[extra]/boii-loadscreen
     ref: main
-    src: https://github.com/qbcore-framework/qb-loading
+    src: https://github.com/Criminals-Paradise-RP/boii-loadscreen
 
+  - action: download_github
+    dest: ./resources/[extra]/boii-pausemenu
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/boii-pausemenu
+    
+  - action: download_github
+    dest: ./resources/[extra]/Custom-Weapons
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/Custom-Weapons
+
+  - action: download_github
+    dest: ./resources/[ps]/ps-multijob
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/ps-multijob
+
+  - action: download_github
+    dest: ./resources/[ps]/ps-microphone
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/ps-microphone
+
+  - action: download_github
+    dest: ./resources/[ps]/ps-mdt
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/ps-mdt
+
+  - action: download_github
+    dest: ./resources/[ps]/ps-dispatch
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/ps-dispatch
+
+  - action: download_github
+    dest: ./resources/[ps]/ps-realtor
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/ps-realtor
+
+  - action: download_github
+    dest: ./resources/[ps]/ps-housing
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/ps-housing
+
+  - action: download_github
+    dest: ./resources/[ps]/ps-hud
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/ps-hud
+
+  - action: download_github
+    dest: ./resources/[ps]/ps-ui
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/ps-ui
+
+  - action: download_github
+    dest: ./resources/[extra]/cqc-mugshot
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/cqc-mugshot
+
+  - action: download_github
+    dest: ./resources/[ox]/ox_target
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/ox_target
+
+  - action: download_github
+    dest: ./resources/[ox]/ox_lib
+    ref: master
+    src: https://github.com/Criminals-Paradise-RP/ox_lib
+
+  - action: download_github
+    dest: ./resources/[extra]/rpemotes
+    ref: master
+    src: https://github.com/Criminals-Paradise-RP/rpemotes
+
+  - action: download_github
+    dest: ./resources/[extra]/Ultra-Scoreboard
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/Ultra-Scoreboard
+
+  - action: download_github
+    dest: ./resources/[extra]/glx-afksystem
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/glx-afksystem
+
+  - action: download_github
+    dest: ./resources/[extra]/wk_wars2x
+    ref: master
+    src: https://github.com/Criminals-Paradise-RP/wk_wars2x
+
+  - action: download_github
+    dest: ./resources/[extra]/nearest-postal
+    ref: master
+    src: https://github.com/Criminals-Paradise-RP/nearest-postal
+
+  - action: download_github
+    dest: ./resources/[extra]/serrulata-atmrobbery
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/serrulata-atmrobbery
+
+  - action: download_github
+    dest: ./resources/[extra]/brazzers-harness
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/brazzers-harness
+
+  - action: download_github
+    dest: ./resources/[extra]/mt-clothingbag
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/mt-clothingbag
+
+  - action: download_github
+    dest: ./resources/[qb]/qb-community-service
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/qb-community-service
+
+  - action: download_github
+    dest: ./resources/[qb]/mz-skills
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/mz-skills
+    
   # Clean up
   - action: remove_path
     path: ./tmp
