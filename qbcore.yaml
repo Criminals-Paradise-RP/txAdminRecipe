@@ -449,6 +449,9 @@ tasks:
     ref: main
     src: https://github.com/Criminals-Paradise-RP/ox_target
 
+  - action: waste_time # prevent github throttling
+    seconds: 10
+
   - action: download_github
     dest: ./resources/[ox]/ox_lib
     ref: master
@@ -513,6 +516,11 @@ tasks:
     dest: ./resources/[extra]/919-speedlimits
     ref: main
     src: https://github.com/youngsinatra99/919-speedlimits
+
+  - action: download_github
+    dest: ./resources/[extra]/vehcontrol
+    ref: master
+    src: https://github.com/Criminals-Paradise-RP/vehcontrol
     
   # Clean up
   - action: remove_path
