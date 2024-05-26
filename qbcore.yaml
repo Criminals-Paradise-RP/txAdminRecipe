@@ -95,9 +95,9 @@ tasks:
     src: https://github.com/AvarianKnight/pma-voice
 
   - action: download_github
-    dest: ./resources/[voice]/qb-radio
+    dest: ./resources/[voice]/mm_radio
     ref: main
-    src: https://github.com/Criminals-Paradise-RP/qb-radio
+    src: https://github.com/Criminals-Paradise-RP/mm_radio
 
     # MAPS
   - action: download_github
@@ -137,17 +137,7 @@ tasks:
   - action: download_github
     dest: ./resources/[qb]/qb-vehiclesales
     ref: main
-    src: https://github.com/qbcore-framework/qb-vehiclesales
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-vehicleshop
-    ref: main
-    src: https://github.com/Criminals-Paradise-RP/qb-vehicleshop
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-houserobbery
-    ref: main
-    src: https://github.com/Criminals-Paradise-RP/qb-houserobbery
+    src: https://github.com/Criminals-Paradise-RP/qb-vehiclesales
 
   - action: waste_time # prevent github throttling
     seconds: 10
@@ -199,11 +189,6 @@ tasks:
     dest: ./resources/[qb]/qb-weathersync
     ref: main
     src: https://github.com/qbcore-framework/qb-weathersync
-
-  - action: download_github
-    dest: ./resources/[qb]/qb-policejob
-    ref: master
-    src: https://github.com/Criminals-Paradise-RP/qb-policejob
 
   - action: download_github
     dest: ./resources/[qb]/qb-apartments
@@ -332,9 +317,9 @@ tasks:
     src: https://github.com/Criminals-Paradise-RP/jim-recycle
 
   - action: download_github
-    dest: ./resources/[qb]/qb-interior
+    dest: ./resources/[extra]/qb-interior
     ref: main
-    src: https://github.com/qbcore-framework/qb-interior
+    src: https://github.com/Criminals-Paradise-RP/qb-interior
 
   - action: download_github
     dest: ./resources/[qb]/qb-menu
@@ -395,9 +380,9 @@ tasks:
     src: https://github.com/Criminals-Paradise-RP/ps-housing
 
   - action: download_github
-    dest: ./resources/[ps]/ps-hud
+    dest: ./resources/[extra]/z-hud
     ref: main
-    src: https://github.com/Criminals-Paradise-RP/ps-hud
+    src: https://github.com/Criminals-Paradise-RP/z-hud
 
   - action: download_github
     dest: ./resources/[ps]/ps-ui
@@ -408,6 +393,11 @@ tasks:
     dest: ./resources/[ps]/ps-adminmenu
     ref: main
     src: https://github.com/Criminals-Paradise-RP/ps-adminmenu
+
+  - action: download_github
+    dest: ./resources/[extra]/qb-adminmenu
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/qb-adminmenu
 
   - action: download_github
     dest: ./resources/[extra]/cqc-mugshot
@@ -433,9 +423,9 @@ tasks:
     src: https://github.com/Criminals-Paradise-RP/rpemotes
 
   - action: download_github
-    dest: ./resources/[extra]/Ultra-Scoreboard
+    dest: ./resources/[extra]/ac_scoreboard
     ref: main
-    src: https://github.com/Criminals-Paradise-RP/Ultra-Scoreboard
+    src: https://github.com/Criminals-Paradise-RP/ac_scoreboard
 
   - action: download_github
     dest: ./resources/[extra]/glx-afksystem
@@ -451,16 +441,6 @@ tasks:
     dest: ./resources/[extra]/nearest-postal
     ref: master
     src: https://github.com/Criminals-Paradise-RP/nearest-postal
-
-  - action: download_github
-    dest: ./resources/[extra]/serrulata-atmrobbery
-    ref: main
-    src: https://github.com/Criminals-Paradise-RP/serrulata-atmrobbery
-
-  - action: download_github
-    dest: ./resources/[extra]/brazzers-harness
-    ref: main
-    src: https://github.com/Criminals-Paradise-RP/brazzers-harness
 
   - action: download_github
     dest: ./resources/[extra]/mt-clothingbag
@@ -491,6 +471,26 @@ tasks:
     dest: ./resources/[extra]/vehcontrol
     ref: master
     src: https://github.com/Criminals-Paradise-RP/vehcontrol
+
+  - action: download_github
+    dest: ./resources/[extra]/md-drugs
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/md-drugs
+
+  - action: download_github
+    dest: ./resources/[ps]/ps-props
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/ps-props
+
+  - action: download_github
+    dest: ./resources/[extra]/wp-tow-hauling
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/wp-tow-hauling
+
+  - action: download_github
+    dest: ./resources/[extra]/wp-placeables
+    ref: main
+    src: https://github.com/Criminals-Paradise-RP/wp-placeables
     
   # Clean up
   - action: remove_path
